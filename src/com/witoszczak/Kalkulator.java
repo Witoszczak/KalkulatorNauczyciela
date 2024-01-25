@@ -68,7 +68,7 @@ public class Kalkulator {
         Border innerBorder = BorderFactory.createTitledBorder("");//"Rozkład punktów na oceny");
         Border outerBorder = BorderFactory.createEmptyBorder(15,15,15,15);
         oknoWynikow.setBorder(BorderFactory.createCompoundBorder(outerBorder, innerBorder));
-        oknoWynikow.setBackground(Color.MAGENTA);
+        oknoWynikow.setBackground(Color.pink);
         centerPanel.add(oknoWynikow, BorderLayout.CENTER);
 
         String rozkladText = "\n    A:\n    B:\n    C:\n    D:\n";
